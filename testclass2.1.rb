@@ -17,6 +17,7 @@ class Thing
 end
 
 class Treasure < Thing
+	#the following line creates a variable "value", which we never expricitly created. It got implicitly added to the class .
 	attr_accessor :value
 	def initialize(aName, aDescription)
 		super(aName, aDescription)
